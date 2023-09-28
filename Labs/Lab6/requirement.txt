@@ -12,6 +12,7 @@ seaborn
 nb_conda
 urllib3
 regex
+requests
 beautifulsoup4
 jupyter
 ipympl
