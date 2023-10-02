@@ -20,3 +20,4 @@ black
 pylint
 isort
 pre-commit
+random
