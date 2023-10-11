@@ -17,10 +17,10 @@ from Cython.Build import cythonize
 # ]
 
 extensions = [
-    Extension("compute_cy", ["compute_cy.pyx"], include_dirs=[numpy.get_include()]),
+    Extension("knn_cy", ["knn_cy.pyx"], include_dirs=[numpy.get_include()]),
 ]
 
 setup(
-    name="compute_cy",
-    ext_modules=cythonize(["compute_cy.pyx"], annotate=True, language_level="3"),
+    name="knn_cy",
+    ext_modules=cythonize(["knn_cy.pyx"], annotate=True, language_level="3"),
 )
